@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Політика конфіденційності — Tacho Control | Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #0f1218;
+      --card: #171c26;
+      --border: #2a3344;
+      --text: #e6ebf5;
+      --muted: #9aa7bd;
+      --accent: #f5c542;
+      --link: #60a5fa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px 16px 48px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+    .lang-bar {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .lang-bar a {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 8px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px 20px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 24px;
+      color: var(--accent);
+    }
+    h2 {
+      margin-top: 24px;
+      font-size: 18px;
+      color: #ffffff;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+    p, li { color: var(--text); font-size: 15px; }
+    .meta { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+    ul { padding-left: 20px; }
+    a { color: var(--link); }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="lang-bar">
+      <a href="#uk">Українська</a>
+      <a href="#en">English</a>
+    </nav>
+
+    <section id="uk" class="card">
+      <h1>Політика конфіденційності — Tacho Control</h1>
+      <div class="meta">
+        Додаток: Tacho Control (<code>com.hrm.tacho</code>)<br />
+        Розробник: Tacho Самоконтроль<br />
+        Дата набрання чинності: 26 листопада 2026 року
+      </div>
+
+      <p>Ця Політика конфіденційності пояснює, як мобільний додаток <strong>Tacho Control</strong> обробляє інформацію користувачів. Додаток створено для локального самоконтролю робочого часу, змін, пауз і відпочинку водіїв.</p>
+
+      <h2>1. Збір та передача даних</h2>
+      <p><strong>Tacho Control не збирає, не передає на сторонні сервери та не продає персональні дані користувачів.</strong> У додатку відсутні рекламні мережі, сторонні системи аналітики, трекери та власні віддалені сервери розробника.</p>
+
+      <h2>2. Локальне зберігання на пристрої</h2>
+      <ul>
+        <li>Усі введені записи про зміни, паузи, відпочинок, налаштування та нотатки зберігаються виключно локально в пам’яті вашого пристрою (<code>localStorage</code> та <code>IndexedDB</code>).</li>
+        <li>Для підтримки офлайн-перевірки придбаної повної версії додаток зберігає локальний хеш ліцензії (SHA-256 на основі системного ідентифікатора пристрою <code>ANDROID_ID</code> та токена покупки Google Play) у захищеному локальному сховищі додатка (<code>SharedPreferences</code>). Ці дані ніколи не передаються на сервери розробника.</li>
+      </ul>
+
+      <h2>3. Резервні копії (TXT / JSON)</h2>
+      <p>Користувач може за власним бажанням створювати, зберігати, імпортувати, копіювати в буфер обміну або надсилати файли резервних копій через стандартні системні інструменти Android. Додаток не виконує автоматичного копіювання даних у хмару без прямої дії користувача.</p>
+
+      <h2>4. Покупки через додаток (Google Play Billing)</h2>
+      <p>Додаток пропонує разову покупку для розблокування повної версії (<code>tacho_full_unlock</code>). Усі платіжні операції та перевірка статусу покупки обробляються виключно сервісом <strong>Google Play Billing</strong>. Розробник не отримує доступу до даних банківських карток або платіжних реквізитів користувача. Обробка платіжних даних регулюється <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Політикою конфіденційності Google</a>.</p>
+
+      <h2>5. Дозволи додатка</h2>
+      <ul>
+        <li><strong>Доступ до інтернету (<code>INTERNET</code>) та Google Play Billing (<code>BILLING</code>)</strong> — використовуються виключно для здійснення та відновлення покупки повної версії через Google Play.</li>
+        <li>Додаток не запитує доступу до геолокації, контактів, камери, мікрофона чи фонового відстеження.</li>
+      </ul>
+
+      <h2>6. Видалення даних</h2>
+      <p>Оскільки всі робочі дані зберігаються локально на вашому пристрої, ви можете повністю видалити їх у будь-який момент у налаштуваннях додатка, через очищення даних додатка в налаштуваннях Android або шляхом видалення додатка з пристрою.</p>
+
+      <h2>7. Конфіденційність дітей</h2>
+      <p>Tacho Control є професійним інструментом для дорослих водіїв і не призначений для дітей віком до 13 років.</p>
+
+      <h2>8. Зміни до політики та контакти</h2>
+      <p>У разі оновлення цієї Політики конфіденційності актуальна версія буде опублікована на цій сторінці із зазначенням дати оновлення. З усіх питань щодо конфіденційності звертайтеся на електронну пошту: <a href="mailto:hrm.tacho@gmail.com">hrm.tacho@gmail.com</a>.</p>
+    </section>
+
+    <section id="en" class="card">
+      <h1>Privacy Policy — Tacho Control</h1>
+      <div class="meta">
+        App: Tacho Control (<code>com.hrm.tacho</code>)<br />
+        Developer: Tacho Самоконтроль<br />
+        Effective Date: November 26, 2026
+      </div>
+
+      <p>This Privacy Policy explains how the <strong>Tacho Control</strong> Android application handles user information. The app is designed for offline self-monitoring of drivers' working shifts, breaks, and rest periods.</p>
+
+      <h2>1. Data Collection and Sharing</h2>
+      <p><strong>Tacho Control does not collect, transmit to external servers, or sell your personal data.</strong> The app contains no advertising SDKs, third-party analytics, trackers, or developer-operated backend servers.</p>
+
+      <h2>2. Local On-Device Storage</h2>
+      <ul>
+        <li>All shift logs, rest records, notes, and settings are stored exclusively on your device (<code>localStorage</code> and <code>IndexedDB</code>).</li>
+        <li>To allow offline verification of the unlocked full version, the app stores a local cryptographic hash (SHA-256 derived from the device's <code>ANDROID_ID</code> and the Google Play purchase token) in private app storage (<code>SharedPreferences</code>). Neither the device ID nor the hash is ever transmitted off the device.</li>
+      </ul>
+
+      <h2>3. User Backups (TXT / JSON)</h2>
+      <p>Users may manually export, import, copy, or share backup files using standard Android system dialogs. The app never uploads backup files automatically.</p>
+
+      <h2>4. In-App Purchases (Google Play Billing)</h2>
+      <p>The app offers a one-time non-consumable purchase (<code>tacho_full_unlock</code>) to unlock full functionality. All payment processing and purchase verification are handled directly by <strong>Google Play Billing</strong>. The developer does not collect or have access to your payment card or financial account details. Billing data is governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+
+      <h2>5. App Permissions</h2>
+      <ul>
+        <li><strong>Internet (<code>INTERNET</code>) and Billing (<code>com.android.vending.BILLING</code>)</strong> — used solely to connect to Google Play for purchasing and restoring the full version.</li>
+        <li>The app does not request location, camera, microphone, contacts, or background tracking permissions.</li>
+      </ul>
+
+      <h2>6. Data Deletion</h2>
+      <p>Because all user records remain strictly on your device, you can permanently delete all data at any time inside the app settings, by clearing the app's storage in Android Settings, or by uninstalling the app.</p>
+
+      <h2>7. Children's Privacy</h2>
+      <p>Tacho Control is a utility intended for commercial drivers and is not directed at children under the age of 13.</p>
+
+      <h2>8. Changes and Contact</h2>
+      <p>Any updates to this Privacy Policy will be posted on this page with an updated effective date. If you have questions regarding this policy, please contact: <a href="mailto:hrm.tacho@gmail.com">hrm.tacho@gmail.com</a>.</p>
+    </section>
+
+    <footer>&copy; 2026 Tacho Control • hrm.tacho@gmail.com</footer>
+  </div>
+</body>
+</html>
